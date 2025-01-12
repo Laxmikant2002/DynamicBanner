@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Banner Pro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <h2 class="logo"><a href="#">LOGO</a></h2>
+        <input type="checkbox" id="menu-toggler">
+        <label for="menu-toggler" id="hamburger-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </label>
+        <ul class="all-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="homepage" id="home">
+      <div class="content">
+        <div class="text">
+          <h1 id="banner-text">Dynamic Banners for Every Occasion</h1>
+          <p id="banner-description">Engage your audience with stunning, responsive banners that adapt to your needs.</p>
+        </div>
+        <a id="cta-button" href="#services">Explore Our Services</a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2>Our Services</h2>
+      <p>Discover the range of dynamic banner solutions we offer.</p>
+      <ul class="cards">
+        <li class="card">
+          <img src="images/ADVERT.jpeg" alt="ADVERT">
+          <h3>Custom Banners</h3>
+          <p>Create personalized banners tailored to your brand.</p>
+        </li>
+        <li class="card">
+          <img src="images/ACADEMY.jpeg" alt="ACADEMY">
+          <h3>Seasonal Promotions</h3>
+          <p>Update banners automatically for seasonal offers.</p>
+        </li>
+        <li class="card">
+          <img src="images/Food Delivery.jpeg" alt="Food Delivery">
+          <h3>Interactive Features</h3>
+          <p>Add interactive elements to engage users.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2>Our Portfolio</h2>
+      <p>Check out some of our successful banner projects.</p>
+      <ul class="cards">
+        <li class="card">
+          <img src="images/download.jpeg" alt="Project 1">
+          <h3>Project One</h3>
+          <p>A dynamic banner for a major event.</p>
+        </li>
+        <li class="card">
+          <img src="images/download2.jpeg" alt="Project 2">
+          <h3>Project Two</h3>
+          <p>Engaging banners for a product launch.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="about" id="about">
+      <h2>About Us</h2>
+      <p>Learn more about our mission and vision.</p>
+      <div class="row company-info">
+        <h3>Our Story</h3>
+        <p>We specialize in creating dynamic banners that captivate audiences and drive engagement.</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <p>Get in touch for inquiries or support.</p>
+      <form>
+        <input type="text" placeholder="Name*" required>
+        <input type="email" placeholder="Email*" required>
+        <textarea placeholder="Message*" required></textarea>
+        <button id="submit" type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <div>
+        <span>Copyright © 2025 Dynamic Banner Pro. All Rights Reserved.</span>
+        <span class="link">
+            <a href="#">Home</a>
+            <a href="#contact">Contact</a>
+        </span>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
