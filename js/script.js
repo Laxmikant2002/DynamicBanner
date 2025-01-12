@@ -4,19 +4,19 @@ document.addEventListener("DOMContentLoaded", function() {
             text: "Special Offer: 20% off on all banner!",
             description: "Don't miss out on our exclusive offer. Shop now and save big!",
             image: "images/H.jpeg",
-            link: "#services"
+            link: "catalog-price-rule-1.html"
         },
         {
             text: "New Arrival: Check out our latest banner!",
             description: "Explore our new collection of high-quality camping backpacks.",
             image: "images/Real estate.jpeg",
-            link: "#services"
+            link: "catalog-price-rule-2.html"
         },
         {
             text: "Limited Time: Buy one, get one free on month!",
             description: "Hurry up! This offer is valid for a limited time only.",
             image: "images/Social.jpeg",
-            link: "#services"
+            link: "catalog-price-rule-3.html"
         }
     ];
 
