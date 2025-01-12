@@ -26,7 +26,4 @@ This project is a dynamic banner system that automatically updates images and te
 
 ## Live Project
 You can view the live project at the following link:
-[Live Project Link](https://your-live-project-link.com)
-
-## Proof of Experience
-- Live URL: [Provide the URL of a live webpage you've developed]
+[Live Project Link](https://laxmikant2002.github.io/DynamicBanner/)
